@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>申</title>
+
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-4QDQKFKRJR"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-4QDQKFKRJR');
+</script>
+
+
+
+    <style>
+        .article:hover h2,
+        .article:hover p {
+            transition: font-size 0.3s ease-in-out;
+            font-size: 1.5em;
+        }
+    </style>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const articles = document.querySelectorAll(".article");
+
+            articles.forEach(article => {
+                const title = article.querySelector("h2");
+                const paragraph = article.querySelector("p");
+
+                article.addEventListener("mouseover", function () {
+                    title.style.transition = "font-size 0.3s ease-in-out";
+                    title.style.fontSize = "1.5em";
+                    paragraph.style.transition = "font-size 0.3s ease-in-out";
+                    paragraph.style.fontSize = "1.5em";
+                });
+
+                article.addEventListener("mouseout", function () {
+                    title.style.transition = "font-size 0.3s ease-in-out";
+                    title.style.fontSize = "1.2em";
+                    paragraph.style.transition = "font-size 0.3s ease-in-out";
+                    paragraph.style.fontSize = "1em";
+                });
+            });
+        });
+    </script>
+
+    <!-- 其他样式和脚本 -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+    
+        header {
+            background-color: rgb(43, 50, 108);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            transition: background-color 0.3s ease; /* 新增过渡效果 */
+        }
+    
+        nav {
+            background-color: rgb(1, 17, 20);
+            overflow: hidden;
+        }
+    
+        nav a {
+            float: left;
+            display: block;
+            color: #fff;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+            transition: background-color 0.3s ease, color 0.3s ease; /* 新增过渡效果 */
+        }
+    
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+    
+        .container {
+            display: flex;
+            flex: 1;
+        }
+    
+        .sidebar {
+            width: 110px;
+            background-color: rgb(93, 174, 228);
+            padding: 20px;
+            transition: width 0.3s ease; /* 新增过渡效果 */
+        }
+    
+        .sidebar:hover {
+            width: 200px;
+        }
+    
+        .content {
+            flex: 1;
+            background-color: rgb(59, 57, 76);
+            padding: 20px;
+        }
+    
+        .article {
+            margin-bottom: 30px;
+            transition: box-shadow 0.3s ease, transform 0.3s ease; /* 新增过渡效果 */
+        }
+    
+        .article:hover {
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            transform: scale(1.05); /* 缩放效果 */
+        }
+    
+        .article {
+            border: 1px solid rgb(28, 201, 228);
+            border-radius: 8px;
+            padding: 10px;
+        }
+    
+        .article:nth-child(odd) {
+            background-color: #f4f4f4;
+        }
+    
+        .article:nth-child(even) {
+            background-color: #e0e0e0;
+        }
+    
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+    
+        /* 新增CSS样式，用于激活状态的目录项 */
+        .sidebar ul li a.active {
+            color: #ff5733;
+        }
+    </style>
+    
+</head>
+
+
+<body>
+    <header>
+        <h1>欢迎来到申同学的个人博客</h1>
+        <h3>move fast and break things</h3>
+    </header>
+
+    <nav>
+        <a href="functions/guanyuwo.html">关于我</a>
+        <a href="functions/lianxiwo.html">联系我</a>
+        <a href="functions/wangzhanshoulu.html">网站收录</a>
+        <a href="https://tophub.today/c/news">今日热榜</a>
+    </nav>
+
+    <div class="container">
+        <div class="sidebar">
+            <h3>不觉已春深<br>物我两相忘</h3>
+
+            <h2>博客目录</h2>
+
+            <!-- 目录部分 -->
+            <ul>
+                <li><a href="#article_14">上升之道</a></li>
+                <li><a href="#article_13">在某网站上的主页更新</a></li>
+                <li><a href="#article_12">后形式道德的例子——“万字检讨”</a></li>
+                <li><a href="#article_11">沟通效率与“贵人”</a></li>
+                <li><a href="#article_10">个人研究者与企业机构</a></li>
+                <li><a href="#article_9">关于两种思维方式</a></li>
+
+                <li><a href="#article_7">远山</a></li>
+                <li><a href="#article_6">没有规划的盲目探索就是在空耗时间</a></li>
+                <li><a href="#article_5">买了个暖壶</a></li>
+                <li><a href="#article_4">2023年11月11日所思所感</a></li>
+                <li><a href="#article_3">重新开始写博客</a></li>
+                <li><a href="#article_2">上大学以来学到的关于创业的两点</a></li>
+                <li><a href="#article_1">现在的状态</a></li>
+            </ul>
+
+            <h2>博客说明</h2>
+            <p>电脑端可正常常看，如使用手机，请使用手机横屏模式查看，之后会解决手机端竖屏查看排版问题。</p>
+            <p>这里是申同学的博客，开始于2023年11月10日，目前正在紧张地建设中......</p>
+            
+            <h2>最近在做</h2>
+           
+            <p>寒假开始了，准备考个驾照。<br></p>
+            
+            <h4><a href="functions/update.html">技术更新日志</a></h4>
+        </div>
+
+
+        <!-- 正文部分 -->
+
+
+        <div class="content">
+            <div class="article" id="article_14">
+                <h2>上升之道</h2>
+                <h4>2024年2月20日</h4>
+                官场上晋升有两条道路，一是从基层做起，直达天庭，这对没背景的普通人来说基本走不了多远，二是通过学习大量知识，作为高级知识分子直接进入高层任职，这可以说是一条捷径。
+                <br/><br/>社会上的很多事情也是如此，比如当医生，本科研究生博士这样苦学十几年的道路就类似于从基层做起，虽然可以保证经验丰富，不过是非常困难的，故当医生这件事自然也有捷径。
+                <br/><br/>
+                “成功没有捷径”和“成功有捷径”两句话都是对的。
+                <br/><br/>
+                <hr width="70%" color="black" size="1px" align="center"/>
+                <br/>
+                刚刚过完年，过年期间挺忙的，所以个人网站没什么更新。
+            </div>
+
+
+        <div class="article" id="article_13">
+            <h2>在某网站上的主页更新</h2>
+                <h4>2024年1月17日</h4>
+                凌晨2点20分于家中
+                <br/><br/>
+                从2022年11月开始，到2023年一整年，我都想做技术，想学各种编程语言，电子电路，软硬件精通，制作机器人、造小火箭等等，想做很多事情。但基本都没有做成。不是因为没有时间，而是因为面对浩如烟海的教程与轻重不明的知识点，再加上没有专业人士的指点，导致我走了许多弯路，弯弯绕绕行进至此，再打开GitHub，又看到了一年来自己创建的各种文件夹，各种内容，虽显得杂乱，却也处处映照着当时的野心与激情。我删除了大部分用途不明的文件夹，精简文件结构，只留下极其重要的repositories。
+                <br/><br/>
+                2023年我经历了很多失败，转专业失败，学习电子知识失败，数学竞赛失败，保研大概率也没机会了，这一年走来心情很复杂，大悲之中亦有微喜，恰如过往高中，即使是阴暗底色如夜空，亦有闪闪繁星点缀其中，这对我来说就足够了。2025年是我的考研年，一年要做很多事情，如果2024年可以提前完成一些事情的话，2025年就会相对轻松一些，既能让2026年进入研究生阶段或创业初期的我多些许从容，又能为我今后的人生铺平一段道路，而我现在的年龄正是大好时候，心理学上讲20岁到25岁是一个人一生中的巅峰，无论是智力还是体力都是如此，所以更要把握这段时间，多学一些东西，见识一些东西，
+                 </div>
+
+
+            <div class="article" id="article_13">
+            <h2>在某网站上的主页更新</h2>
+                <h4>2024年1月17日</h4>
+                凌晨2点20分于家中
+                <br/><br/>
+                从2022年11月开始，到2023年一整年，我都想做技术，想学各种编程语言，电子电路，软硬件精通，制作机器人、造小火箭等等，想做很多事情。但基本都没有做成。不是因为没有时间，而是因为面对浩如烟海的教程与轻重不明的知识点，再加上没有专业人士的指点，导致我走了许多弯路，弯弯绕绕行进至此，再打开GitHub，又看到了一年来自己创建的各种文件夹，各种内容，虽显得杂乱，却也处处映照着当时的野心与激情。我删除了大部分用途不明的文件夹，精简文件结构，只留下极其重要的repositories。
+                <br/><br/>
+                2023年我经历了很多失败，转专业失败，学习电子知识失败，数学竞赛失败，保研大概率也没机会了，这一年走来心情很复杂，大悲之中亦有微喜，恰如过往高中，即使是阴暗底色如夜空，亦有闪闪繁星点缀其中，这对我来说就足够了。2025年是我的考研年，一年要做很多事情，如果2024年可以提前完成一些事情的话，2025年就会相对轻松一些，既能让2026年进入研究生阶段或创业初期的我多些许从容，又能为我今后的人生铺平一段道路，而我现在的年龄正是大好时候，心理学上讲20岁到25岁是一个人一生中的巅峰，无论是智力还是体力都是如此，所以更要把握这段时间，多学一些东西，见识一些东西，
+                 </div>
+
+
+
+
+            <div class="article" id="article_12">
+                <h2>后形式道德的例子——“万字检讨”</h2>
+                <h4>2024年1月13日</h4>
+                柯尔伯格的后形式道德阶段是指，在达到每个年龄或，个体开始超越社会规则和法律，通过理性和普世道德原则来进行道德决策。这包括对规则和制度的批判性思考，以及能够灵活协商和变通，以更好地适应特定的情境和价值观。在这个阶段，个体更加独立思考，考虑到伦理和道德的深层次问题，而不仅仅是依赖于外部规则的约束。
+                <br/><br/>
+                被老师罚写一万字检讨，是一字不落地学完呢，还是写两千字，然后拿着两千字去向老师求情呢？显然后者是更为精明的选择，但这需要满足两个条件，一是学生自身知道可以这样做，敢这样做，而是老师也达到了后形式道德水平，即双方都懂得“人情世故”。
+                万字检讨仅仅是一个例子，生活中还有无数的事情都可以通过“合理地”逾越规则来简单地解决。
+                </div>
+
+
+
+            <div class="article" id="article_11">
+                <h2>沟通效率与“贵人”</h2>
+                <h4>2024年1月1日</h4>
+                    今天是2024年的第一天，新年快乐，今天心情不错，但同时也有了两个新想法，说新也不算新，之前也想过，只是今天想写下来。算是2024年的开篇之作。
+                <br/><br/>
+                一、沟通效率<br/>
+
+                A对C传达信息，B询问C信息是什么，C可以说出具体时间，具体地点，事件细节和执行步骤。
+
+                A对B传达信息，C询问B信息是什么，B表示A只是说了要做什么事情，没说别的，细节也记不清了。
+
+                这里不是要比较谁的记忆力更强，而是即使B记得所有细节，也只能或只愿意输出一点内容，无法将A所传达的信息完成地传达给C。
+
+                请问，B和C谁更好？<br/>有的人可能会说像B这样的人适合去踢皮球，去打太极艺术，最擅长“说了跟没说一样”，但这种想法是不对的，擅长“语言艺术”的大师说话虽然像打太极，说了跟没说一样，但是这种大师心里却是清楚的，对整个事情了如指掌，只是不说而已。像B这样的，心里是一团浆糊。
+                <br/><br/>
+                二、生命中的贵人<br/>
+                之前我就有所听闻，“生命中遇到贵人一定要努力攀附“，我之前认为这是狗屁言论，不屑一顾，现在经历了一些事情，不一样了。
+
+                但是我似乎也没什么攀附贵人的能力。遇到自己生命中的贵人很难，但是想要让贵人帮自己一把更是难上加难，我敢说我肯定遇到过的，我也有印象，自己也清楚，那几个人虽然不能带我直上青云，但也有能力拉我一把，但我当时没有那个攀附的能力，以至于和我的贵人们渐渐断了联系。
+
+                当然，现在也没那个能力。<br/><br/>至于有些人坚信万事都能靠自己，不需要借助他人帮助，那我只能羡慕你家庭真好，让你一生顺风顺水。
+                </div>
+
+
+            <div class="article" id="article_10">
+                <h2>个人研究者与企业机构 </h2>
+                <h4>2023年12月18日 </h4>
+                坦白说，我不认为做一个个人心理学研究者能给心理学这个学科带来多大的价值，当然，我这是一种从概率角度的期望，是指大多数个人研究者都无法给心理学研究带来很大的价值，心理学的进步在某种意义上是由少数几个天才级别的人物推动的，大多数心理学家只不过是做些简单而基础的工作。
+                <br><br/>
+                我认为其它学科其实也是这样，个人研究者并不能对学科的进步提供太大价值，真正起推动作用的是一些天才个人以及不缺资金、不缺资源的研究机构或企业。而后者也正是我想做的。
+                <br><br/>
+                这有点类似于曲线救国，一个想做心理学研究的人不去学习大量心理学知识，而是学习创业、商管之类的知识，然后创办企业，找到合适的商业模式，并雇佣一批心理学家，提供各种支持，来进行心理学研究。
+                <br>
+                ---
+                <br>
+                个人研究者虽然起不了太大的作用，但也是有存在的必要的，这里就不详细说了，这不是本文的重点。 </div>
+
+
+            <div class="article" id="article_9">
+                <h2>关于两种思维方式 </h2>
+                <h4>2023年12月6日 </h4>
+                想到了两种思维方式，可以应用到写论文、做项目等需要查询资料和发挥创造力的事务中。<br><br/>
+                一种是先建立整体框架，随后在这个框架中补充内容。缺点是最初的框架可能会限制思维，优点是容易掌控全局。<br><br/>
+                二是先建立一个片面的模型，随后随着数据的增加不断修正该模型。缺点是最初的片面模型如果和理想模型相差太大，过少的数据就很难修正。优点是随时间和数据的增加，模型可以不断迭代，精确度几乎没有上限。
+                </div>
+
+
+
+            
+            <div class="article" id="article_7">
+                <h2>远山</h2>
+                <h4>2023年11月19日 </h4>
+                苍山负雪，明烛天南。<br>
+                我觉得我的心中也有一片城池，纯净无暇，只是不易找到。<br>
+                我像是夜半在森林中潜行。<br><br>
+                有人劝我：“午夜已过，湿气越来越重了，还不回去吗？”我却只想继续向前走走。<br><br>
+                抬头是满天风雨下西楼，低头是痛饮狂歌空度日，闭上眼，是昨夜星辰昨夜风。<br>
+                我到底在思索什么，寻找什么呢？
+                </div>
+
+
+
+            <div class="article" id="article_6">
+                <h2>没有规划的盲目探索就是在空耗时间 </h2>
+                <h4>2023年11月18日 </h4>
+                不仅仅是各种娱乐活动和各种社团组织会大量消耗精力，其实搞学习，搞科研是更消耗精力的。对我来说，如果不清楚目的，那么各种行为都可以说是在无端消耗精力。<br><br/>
+                一些盲目的探索有助于寻找到方向，但我们必须控制盲目探索的程度和时间。
+                </div>
+
+
+
+            <div class="article" id="article_5">
+                <h2>买了个暖壶</h2>
+                <h4>2023年11月12日</h4>
+                今天中午我在洗衣服的时候，感觉水实在是太凉了，于是去买了个暖壶，过去的几年我都没用过暖壶，但是在高中时期不畏天寒地冻的雄鹰，到了大学终究还是向冷水低下了头颅。
+                </div>
+
+
+
+            <div class="article" id="article_4">
+                <h2>2023年11月11日所思所感</h2>
+                <h4>2023年11月11日</h4>
+                下午在北院食堂三楼吃了个米饭配西红柿炒鸡蛋，便从三楼走楼梯去四楼，但却感觉楼梯很长，似乎走不到尽头，天色也已昏暗，看不到任何光亮，这感觉似曾相识，高中时期经历过无数次。
+                <br><br>
+                朋友们都说翻过重重山，越过奇迹的海，就会抵达彼岸，但要以知道方向为前提。当时的我是不知道方向的，只是觉得高中不应该这样过，我希望可以精彩一些，可现实却常常事与愿违。即使有高考的压力，即使高考是一件确定会发生的事情，我也仍然想要探索不同的可能性。
+                <br><br>
+                那时常常感到沉重，感到无法呼吸，但现在看来那时是最轻松的，除了中午吃什么，不需要考虑任何事情；除了高考，不需要担心任何事情。但沉重却愈发沉重，终究是没有把握住，直到又看见傍晚天空泼洒到楼道中的霞光，才稍稍释然，渐渐开始理解一些东西。
+                </div>
+
+
+
+            <div class="article" id="article_3">
+                <h2>上大学以来学到的关于创业的两点</h2>
+                <h4>2023年11月7日</h4>
+                一是关于有机团队与无机团队。
+                我认为团队分为有机的和无机的，有机的就是你自行寻找的各方面的人才所组成的团队，无机的就是被机械地分组，比如小组作业。在无机团队作业中，即使队友做的东西不堪入目，其实也没必要指责，因为不涉及根本利益的冲突。如果因自身审美而对无机团队队友的作品加以指责，不仅会破坏本就脆弱的关系，还可能导致自己包揽所有事务。这显然是不如尽力夸赞更加省力的。
+                但是在真正创业时，必然是需要寻找有机团队的，要寻找各方面的专业人才。因为那时团队中的每个人所做的事情都可能会影响到团队所有人的根本利益，那时就容不得过家家似的合作了。
+                <br>
+                <br>
+                二是关于正视自身精力。
+                一个人走得快，但一群人走的远。
+                我在刚上大学时，总觉得自己可以做了所有的事情，想做一个智能垃圾桶，觉得自己可以去学习编程、计算机视觉、自动化等各方面知识；想做一个软件，就觉得自己可以去学习安卓开发，UI设计、数据库等知识，但其实不能，自己的精力是有限的，倘若有无限的时间，自己确实有可能把这些东西都学会，但时间不是无限的，大学时间就那么点，专业的事情还是要交给专业的人来做，其实最早我是抱有一种“对他人不放心”的想法，一直觉得自己做比较放心，但是今年雷军在年度演讲中说的“一个人可能走的更快，但一群人才能走得更远”令我思绪颇深，渐渐开始重视团队合作的力量。即使他人做的不是很好，但是每个人都是会成长的，自己也不是从一开始就可以做的很好的，带领一个有机团队不断成长，才是正确的创业方法。
+                </div>
+
+
+
+            <div class="article" id="article_2">
+                <h2>重新开始写博客</h2>
+                <h4>2023年11月8日 </h4>
+                最近又喜欢上写博客了，并且尝试在blogspot发了一篇博客，我很喜欢这个网站的排版，感觉很有意思，很简洁。最近我还在尝试用gitee搭建一个类似于Github Pages的网站，然后将其做成自己的博客，因为我很喜欢blogspot的排版，但是在国内却无法正常访问，为了能让身边人看到我的博客，所以我有必要搭建一个国内的博客。
+                感觉写博客真的很有趣，可以记录技术，可以 记录个人心得，可以记录任何自己想要记录的东西。
+                </div>
+
+
+
+            <div class="article" id="article_1">
+                <h2>现在的状态</h2>
+                <h4>2023年11月5日</h4>
+                现在的状态就是一川烟草，满城风絮，梅子黄时雨。
+                <br>没头绪、没边际，没期限.
+                </div>
+
+
+  
+        <footer>
+    <p>&copy; 2023 Shenzhe Beautiful Website. All rights reserved.</p>
+        </footer>
+       
+
+    </body>
+        </html>
+            
+    </body>
+    </html>
